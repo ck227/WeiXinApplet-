@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="mainView">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view class="title">
+    <view class="titleText">
+      <text style="font-size:22px">武汉市江夏区</text>
+      <text style="font-size:22px">丁记纯酿酒坊</text>
+      <text style="font-size:14px;color:#b2b2b2">购物·酒类专卖</text>
+    </view>
+    <view class="titleIcon">
+    <image style="width: 80px; height: 80px;background-color: #eeeeee;border-radius: 50%" src="../../images/logo.jpeg"></image> 
+    </view>
+    
+  </view>
+
+  <view class="line"></view>
+
+<!-- <navigator url="/pages/map/map" hover-class="navigator-hover" style="margin-top:20px">洪湖市峰口镇白庙街道</navigator> -->
+<!-- <text style="margin-top:20px">洪湖市峰口镇白庙街道</text> -->
+<button style="margin-top:12px" type="default" bindtap="openMap">普安新村178号</button>
+
+<view>
+
+<view class="icon">
+<image style="width: 16px; height: 16px;margin-top:12px" src="../../images/telephone.png"></image>
+<text style="font-size:16px;color:#353535;margin-left:8px" bindtap="calling" >18871489324</text>
+</view>
+
+<view class="icon">
+<image style="width: 16px; height: 16px;margin-top:12px" src="../../images/time.png"></image>
+<text style="font-size:16px;color:#353535;margin-left:8px" >08:00-22:00</text>
+</view>
+
+<view class="icon">
+<image style="width: 16px; height: 16px;margin-top:12px" src="../../images/photo.png"></image>
+<text style="font-size:16px;color:#353535;margin-top:8px;margin-left:8px">门店照片</text>
+</view>
+
+</view>
+
+<view style="margin-top:8px">
+  <image style="width: 90px; height: 90px;background-color: #eeeeee" src="../../images/jiu1.jpeg" bindtap='clickPhoto'></image> 
+  <image style="width: 90px; height: 90px;background-color: #eeeeee;margin-left:4px" src="../../images/jiu2.jpeg" bindtap='clickPhoto2'></image> 
+  <image style="width: 90px; height: 90px;background-color: #eeeeee;margin-left:4px" src="../../images/jiu3.jpeg" bindtap='clickPhoto3'></image> 
+</view>
+  
+</view>
